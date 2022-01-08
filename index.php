@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
 
     $result = mysqli_query($conn, "SELECT * FROM masyarakat WHERE username='$username' AND password='$pass'");
     $data = mysqli_num_rows($result);
-    $ada = mysqli_fetch_assoc($result);
+    $ada = mysqli_fetch_array($result);
     // jka data tidak ada
     if ($data == 0) {
         echo '
