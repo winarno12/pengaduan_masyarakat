@@ -44,10 +44,10 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <nav class="row mt-3">
-        <ul class="nav justify-content-end">
-            <li class="nav-item justify-content-end">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
+    <nav class="row">
+        <ul class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../index.php">Login</a>
@@ -86,7 +86,7 @@ if (isset($_POST['submit'])) {
                                 <input type="text" name="no" class="form-control" autocomplete="off" required>
                             </div>
                             <div class="mb-3 d-grid gap-2">
-                                <button type="submit" class="btn btn-primary" name="submit">Login</button>
+                                <button type="submit" class="btn btn-primary" name="submit">Daftar</button>
                             </div>
 
                         </form>
